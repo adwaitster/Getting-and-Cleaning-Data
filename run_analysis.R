@@ -35,10 +35,10 @@ column_classes <-rep_len("NULL",nrow(variable_names)) # Null vector of 561 lengt
 column_names[keep]<-keep_variables #Replace null values with variable names
 column_classes[keep]<-"numeric" #Replace null values with variable class
 
-  train_data_set<-read.table("./train/X_train.txt",colClasses = column_class, 
+  train_data_set<-read.table("./train/X_train.txt",colClasses = column_classes, 
                            col.names=column_names)
   
-  test_data_set<-read.table("./test/X_test.txt",colClasses = column_class, 
+  test_data_set<-read.table("./test/X_test.txt",colClasses = column_classes, 
                             col.names=column_names)
   
 ### Attach the subject and activity ids with the data sets###
