@@ -43,4 +43,4 @@ Features
 
 *fBodyAcc.mean...X:	Mean Frequency Domain Body Acceleration along the X axis
 
-Featues not listed above are of secondary imporatance and are not elaborated about. Please refer to the features_infor.txt for more information
+Featues not listed above are of secondary imporatance and are not elaborated about. Please refer to the features_info.txt for more information
