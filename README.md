@@ -10,12 +10,16 @@ The files used from the raw data were the following:
 activity_labels.txt ## Label Names for activity ids
 
 y_train.txt         ## Training activity ids
+
 subject_train.txt   ## Training subject ids
+
 X_train.txt        ## File containing the 561 feature/variable data for each TRAINING 
                       subject and activity
 
 y_test.txt         ## Test activity ids
+
 subject_test.txt   ## Test subject ids
+
 X_test.txt        ## File containing the 561 feature/variable data for each TEST 
                       subject and activity
 
